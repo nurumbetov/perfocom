@@ -1,0 +1,39 @@
+body
+	font-family: 'Ubuntu', sans-serif
+	color: #fff
+	font-style: normal
+	font-weight: 400
+	font-size: 16px
+	line-height: 32px
+	background-color: #202020
+.container
+	margin: auto
+	max-width: 1280px
+	width: 96%
+.button
+	border: 1px solid $primary
+	padding: 20px 51px 20px 31px
+	line-height: 0
+	background-color: $primary
+	background-image: url('/src/img/interface/button.svg')
+	background-repeat: no-repeat
+	background-position: center right 30px
+	color: inherit
+	transition: all 0.2s
+	&:hover
+		background-color: transparent
+		border: 1px solid $primary
+		color: $primary
+		background-image: url('/src/img/interface/button-filled.svg')
+	&_o
+		padding-left: 54px
+		padding-right: 76px
+		border: 1px solid #fff
+		background-color: transparent
+		background-position: center right 50px
+.section-title
+	font-weight: 400
+	font-size: 64px
+	line-height: 80px
+.color-text
+	color: $primary
